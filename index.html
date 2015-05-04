@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--_____________________________________-->
+<!--Front-End Developer: Vanessa Torres  -->
+<!-- re:boot Coding Boot Camp April 2015 -->
+<!--_____________________________________-->
+
+<head>
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--needed for the wow plug in-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--google fonts cdn-->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <!--fonts awesome-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+    <!--owl carousel plug in-->
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+    <script src="owl-carousel/owl.carousel.js"></script>
+</head>
+<!--tophere-->
+
+<body>
+        </section>
+        <!--_____________________________________-->
+        <!--_____________________________________-->
+        <!--       Copyright Section             -->
+        <!--_____________________________________-->
+        <!--_____________________________________-->
+        <section>
+            <div class="container">
+                <footer><span class="glyphicon glyphicon-copyright-mark"></span>Copyright 2015 VanessaTorres All Rights Reserved</footer>
+            </div>
+        </section>
+        <!--__________________________________________________________________________________-->
+        <!--__________________________________________________________________________________-->
+        <!--    Local Scripting for plug-ins and cdn's                                        -->
+        <!--__________________________________________________________________________________-->
+        <!--__________________________________________________________________________________-->
+        <section>
+            <!--Bootstrap for javascript-->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+            <!--My Own js file-->
+            <script type="text/javascript" src="scripts/scripts.js"></script>
+            <!-- Git Hub follow me button -->
+            <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+            <!--Smooth scroll plug in-->
+            <!--previous plug-in<script type="text/javascript" src="scripts/jquery.smooth-scroll.js"></script>-->
+            <script type="text/javascript" src="scripts/smooth-scroll.js"></script>
+            <!--countTo plug in-->
+            <script type="text/javascript" src="scripts/jquery.countTo.js"></script>
+            <!--wow.js plug in-->
+            <script src="scripts/wow.min.js"></script>
+            <!--wow init-->
+            <script>
+            new WOW().init();
+            </script>
+            <!--owl carousel init-->
+            <script type="text/javascript">
+            $(".owl-carousel").owlCarousel();
+            </script>
+            <!--smooth scroll init-->
+            <script>
+            smoothScroll.init();
+            </script>
+            <!--countTo init-->
+            <script type="text/javascript">
+            jQuery(function($) {
+                // custom formatting example
+                $('#earth').data('countToOptions', {
+                    formatter: function(value, options) {
+                        return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+                    }
+                });
+
+                // custom callback when counting completes
+                $('#countdown').data('countToOptions', {
+                    onComplete: function(value) {
+                        $(this).text('BLAST OFF!').addClass('red');
+                    }
+                });
+
+                // another custom callback for counting to infinity
+                $('#infinity').data('countToOptions', {
+                    onComplete: function(value) {
+                        count.call(this, {
+                            from: value,
+                            to: value + 1
+                        });
+                    }
+                });
+
+                // start all the timers
+                $('.timer').each(count);
+
+                // restart a timer when a button is clicked
+                $('.restart').click(function(event) {
+                    event.preventDefault();
+                    var target = $(this).data('target');
+                    count.call($(target));
+                });
+
+                function count(options) {
+                    var $this = $(this);
+                    options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+                    $this.countTo(options);
+                }
+            });
+            </script>
+    </div>
+</body>
+<!--THE END-->
+
+</html>
