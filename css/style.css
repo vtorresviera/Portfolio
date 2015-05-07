@@ -1,0 +1,222 @@
+body {
+    width: 100%;
+    padding-top: 120px;
+    margin-top: 20px;
+}
+
+.page-wrap {
+    width: 80%
+}
+
+.container {
+    width: 80%;
+}
+
+.container-fluid {
+    width: 80%;
+}
+
+#contactInfo {
+    font-size: 12px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    line-height: 1.2;
+    text-align: left;
+    /*position: absolute;*/
+    
+    position: relative;
+    /*left: 392.937px;*/
+    /*left: 19.5%;*/
+    
+    top: 12.792px;
+    z-index: 231;
+}
+
+#phoneNum {
+    font-size: 12px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    line-height: 1.2;
+    text-align: left;
+    /*position: absolute;*/
+    
+    position: relative;
+    /*left: 514.648px;*/
+    
+    left: 26%;
+    top: 11.792px;
+    z-index: 229;
+}
+
+#bground1 {
+    background-color: rgb(245, 247, 251);
+    box-shadow: 0px 1px 0px 0px rgba(230, 233, 237, 0.004);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 40px;
+}
+
+a.navbar-brand {
+    display: inline;
+    padding-right: 50px;
+    padding-top: 5px;
+}
+
+#bground2 {
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-bottom: 0px;
+    left: 0px;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+}
+
+.navbar2 {
+    /* previous font per psd 15px */
+    
+    font-size: 12px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+
+#jumbotron {
+    position: relative;
+    /*height: 880px;*/
+    height: 672px;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    font-family: lato;
+    background-position: center, center;
+    background-image: url(../img/jumbotronBackground.png);
+}
+/*jumbotron for latest works*/
+
+#jumbotron3 {
+    margin-top: 160px;
+    width: 100%;
+    left: 0px;
+    font-family: lato;
+    background-position: center, center;
+    background-color: rgb(242, 245, 247);
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-align: center;
+    font-size: 44px;
+}
+
+.jumbotron1 {
+    font-size: 50px;
+    font-family: "Lato";
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.128;
+    text-align: center;
+    margin-top: 12%;
+}
+
+.jumbotron2 {
+    font-family: "Lato";
+    font-size: 14px;
+    color: rgb(151, 167, 182);
+    text-align: center;
+}
+
+.cleanResponsive {
+    font-size: 44px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    line-height: 1.227;
+    text-align: center;
+}
+
+.cleanResponsive2 {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    /*font-weight: bold;*/
+    /*line-height: 1.227;*/
+    
+    text-align: center;
+}
+
+#iconp {
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    line-height: 1.5;
+    text-align: left;
+    height: 100px;
+    padding-top: 30px;
+}
+
+.format1 {
+    left: 0px;
+    top: 0px;
+    width: 428px;
+    height: 293px;
+    padding-top: 30px;
+}
+
+canvas {
+    background-color: rgb(255, 255, 255);
+    font-size: 44px;
+    font-family: "Lato";
+}
+
+#owl {
+    padding-top: 30px;
+}
+.pageFooter {
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.375;
+  text-align: left;
+  background-color: rgb(47,64,82);
+  padding-top: 40px;
+  height: 300px;
+  width: 100%;
+}
+p.footer {
+  font-size: 12px;
+  font-family: "Lato";
+  font-weight: normal;
+  color:rgb(115,135,156);
+  line-height: 1.375;
+  text-align: left;
+  padding-top:5px;
+  text-transform: none;
+  padding-bottom: 5px;
+}
+a.footer2 {
+  font-size: 12px;
+  font-family: "Lato";
+  font-weight: normal;
+  color:rgb(115,135,156);
+  line-height: 1.375;
+  text-transform: none;
+  padding-top:30px;
+  text-decoration: underline;
+}
+a.footer3 {
+  font-size: 12px;
+  font-family: "Lato";
+  font-weight: normal;
+  color:rgb(115,135,156);
+  line-height: 1.375;
+  text-transform: none;
+  padding-top:30px;
+  text-decoration: none;
+}
+
