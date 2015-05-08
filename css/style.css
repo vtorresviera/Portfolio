@@ -66,17 +66,16 @@ a.navbar-brand {
 #bground2 {
     background-color: rgb(255, 255, 255);
     margin-top: 40px;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
     border-bottom: 0px;
     left: 0px;
     top: 0px;
-    height: 100px;
+    height: 50px;
     width: 100%;
+    margin-bottom: 0px;
 }
 
 .navbar2 {
-    /* previous font per psd 15px */
-    
     font-size: 12px;
     font-family: "SourceSansPro";
     color: rgb(80, 106, 133);
@@ -87,8 +86,9 @@ a.navbar-brand {
 }
 
 #jumbotron {
-    position: relative;
+    /*position: relative;
     /*height: 880px;*/
+    
     height: 672px;
     width: 100%;
     left: 0px;
@@ -120,7 +120,7 @@ a.navbar-brand {
     text-transform: uppercase;
     line-height: 1.128;
     text-align: center;
-    margin-top: 12%;
+    /*margin-top: 12%;*/
 }
 
 .jumbotron2 {
@@ -143,9 +143,6 @@ a.navbar-brand {
     font-size: 16px;
     font-family: "Lato";
     color: rgb(80, 106, 133);
-    /*font-weight: bold;*/
-    /*line-height: 1.227;*/
-    
     text-align: center;
 }
 
@@ -175,48 +172,107 @@ canvas {
 #owl {
     padding-top: 30px;
 }
+
 .pageFooter {
-  font-size: 16px;
-  font-family: "Lato";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.375;
-  text-align: left;
-  background-color: rgb(47,64,82);
-  padding-top: 40px;
-  height: 300px;
-  width: 100%;
-}
-p.footer {
-  font-size: 12px;
-  font-family: "Lato";
-  font-weight: normal;
-  color:rgb(115,135,156);
-  line-height: 1.375;
-  text-align: left;
-  padding-top:5px;
-  text-transform: none;
-  padding-bottom: 5px;
-}
-a.footer2 {
-  font-size: 12px;
-  font-family: "Lato";
-  font-weight: normal;
-  color:rgb(115,135,156);
-  line-height: 1.375;
-  text-transform: none;
-  padding-top:30px;
-  text-decoration: underline;
-}
-a.footer3 {
-  font-size: 12px;
-  font-family: "Lato";
-  font-weight: normal;
-  color:rgb(115,135,156);
-  line-height: 1.375;
-  text-transform: none;
-  padding-top:30px;
-  text-decoration: none;
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.375;
+    text-align: left;
+    background-color: rgb(47, 64, 82);
+    padding-top: 40px;
+    height: 300px;
+    width: 100%;
 }
 
+p.footer {
+    font-size: 12px;
+    font-family: "Lato";
+    font-weight: normal;
+    color: rgb(115, 135, 156);
+    line-height: 1.375;
+    text-align: left;
+    padding-top: 5px;
+    text-transform: none;
+    padding-bottom: 5px;
+}
+
+a.footer2 {
+    font-size: 12px;
+    font-family: "Lato";
+    font-weight: normal;
+    color: rgb(115, 135, 156);
+    line-height: 1.375;
+    text-transform: none;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+
+a.footer3 {
+    font-size: 12px;
+    font-family: "Lato";
+    font-weight: normal;
+    color: rgb(115, 135, 156);
+    line-height: 1.375;
+    text-transform: none;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+input.inputemail {
+    font-size: 12px;
+    font-family: "SourceSansPro";
+    font-weight: 200;
+    color: rgb(163, 177, 191);
+    line-height: 1.571;
+    text-align: left;
+    background-color: rgb(78, 92, 108);
+}
+
+.btn-info {
+    background-color: rgb(0, 188, 154);
+    text-transform: uppercase;
+    font-family: "SourceSansPro";
+}
+
+#bground3 {
+    background-color: rgb(40, 54, 69);
+    box-shadow: 0px 1px 0px 0px rgba(230, 233, 237, 0.004);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 40px;
+}
+
+.navbar3 {
+    font-size: 10px;
+    font-family: "SourceSansPro";
+    color: rgb(103, 117, 131);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: right;
+}
+
+footer {
+    text-transform: none;
+    padding-top: 19px;
+}
+a.bottom {
+  color: rgb(103, 117, 131);
+}
+#getInTouch {
+  padding-bottom: 30px;
+}
+.btn-lg {
+  font-size: 15px;
+  font-family: "SourceSansPro";
+  text-align: center;
+}
+.btn-xl {
+  font-size: 17px;
+  font-family: "SourceSansPro";
+  text-align: center;
+}
