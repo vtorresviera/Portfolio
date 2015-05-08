@@ -1,8 +1,8 @@
-body {
+/*body {
     width: 100%;
     padding-top: 120px;
     margin-top: 20px;
-}
+}*/
 
 .page-wrap {
     width: 80%
@@ -22,14 +22,6 @@ body {
     color: rgb(80, 106, 133);
     line-height: 1.2;
     text-align: left;
-    /*position: absolute;*/
-    
-    position: relative;
-    /*left: 392.937px;*/
-    /*left: 19.5%;*/
-    
-    top: 12.792px;
-    z-index: 231;
 }
 
 #phoneNum {
@@ -38,14 +30,6 @@ body {
     color: rgb(80, 106, 133);
     line-height: 1.2;
     text-align: left;
-    /*position: absolute;*/
-    
-    position: relative;
-    /*left: 514.648px;*/
-    
-    left: 26%;
-    top: 11.792px;
-    z-index: 229;
 }
 
 #bground1 {
@@ -54,7 +38,7 @@ body {
     left: 0px;
     top: 0px;
     width: 100%;
-    height: 40px;
+    /*height: 40px;*/
 }
 
 a.navbar-brand {
@@ -66,11 +50,9 @@ a.navbar-brand {
 #bground2 {
     background-color: rgb(255, 255, 255);
     margin-top: 40px;
-    /*margin-bottom: 40px;*/
     border-bottom: 0px;
     left: 0px;
     top: 0px;
-    height: 50px;
     width: 100%;
     margin-bottom: 0px;
 }
@@ -86,10 +68,8 @@ a.navbar-brand {
 }
 
 #jumbotron {
-    /*position: relative;
-    /*height: 880px;*/
-    
-    height: 672px;
+    min-height: 672px;
+    padding-top: 100px;
     width: 100%;
     left: 0px;
     right: 0px;
@@ -97,19 +77,18 @@ a.navbar-brand {
     background-position: center, center;
     background-image: url(../img/jumbotronBackground.png);
 }
-/*jumbotron for latest works*/
+/*jumbotron for latest works class deleted -now regular section*/
 
 #jumbotron3 {
-    margin-top: 160px;
+    margin-top: 200px;
     width: 100%;
-    left: 0px;
     font-family: lato;
-    background-position: center, center;
     background-color: rgb(242, 245, 247);
     color: rgb(80, 106, 133);
     font-weight: bold;
     text-align: center;
     font-size: 44px;
+    padding-top: 50px;
 }
 
 .jumbotron1 {
@@ -118,9 +97,11 @@ a.navbar-brand {
     font-weight: 400;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    line-height: 1.128;
     text-align: center;
-    /*margin-top: 12%;*/
+}
+
+h4.jumbotron1 {
+    padding-top: 100px;
 }
 
 .jumbotron2 {
@@ -154,12 +135,11 @@ a.navbar-brand {
     height: 100px;
     padding-top: 30px;
 }
+/* 2 centered pics*/
 
 .format1 {
-    left: 0px;
-    top: 0px;
-    width: 428px;
-    height: 293px;
+   /* width: 428px;
+    height: 293px;*/
     padding-top: 30px;
 }
 
@@ -183,7 +163,8 @@ canvas {
     text-align: left;
     background-color: rgb(47, 64, 82);
     padding-top: 40px;
-    height: 300px;
+    /*height: 300px;*/
+    
     width: 100%;
 }
 
@@ -243,7 +224,7 @@ input.inputemail {
     left: 0px;
     top: 0px;
     width: 100%;
-    height: 40px;
+    /*height: 40px;*/
 }
 
 .navbar3 {
@@ -260,19 +241,45 @@ footer {
     text-transform: none;
     padding-top: 19px;
 }
+
 a.bottom {
-  color: rgb(103, 117, 131);
+    color: rgb(103, 117, 131);
 }
+
 #getInTouch {
-  padding-bottom: 30px;
+    padding-bottom: 30px;
 }
+
 .btn-lg {
-  font-size: 15px;
-  font-family: "SourceSansPro";
-  text-align: center;
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    text-align: center;
 }
+
 .btn-xl {
-  font-size: 17px;
-  font-family: "SourceSansPro";
-  text-align: center;
+    font-size: 17px;
+    font-family: "SourceSansPro";
+    text-align: center;
+}
+/*hamburger bars formatting*/
+/*.icon-bar {*/
+
+.bar2 {
+    background-color: gray;
+}
+
+.figone {
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "Lato";
+}
+
+.figtwo {
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: "Lato";
+}
+
+figure {
+    text-align: center;
 }
